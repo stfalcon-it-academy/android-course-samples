@@ -28,7 +28,7 @@ public class CharacterStreams extends AbstractStreamDemo {
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
         } catch (IOException e) {
-            System.out.println("Can't read file");
+            System.out.println("Can't write file");
         } finally {
             try {
                 if (fileWriter != null) {

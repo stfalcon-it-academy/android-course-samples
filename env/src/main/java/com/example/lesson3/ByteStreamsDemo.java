@@ -33,8 +33,7 @@ public class ByteStreamsDemo extends AbstractStreamDemo {
             try {
                 if (outputStream != null)
                     outputStream.close();
-            } catch (IOException ignore) {
-            }
+            } catch (IOException ignore) { }
         }
     }
 
@@ -58,8 +57,7 @@ public class ByteStreamsDemo extends AbstractStreamDemo {
             try {
                 if (inputStream != null)
                     inputStream.close();
-            } catch (IOException ignore) {
-            }
+            } catch (IOException ignore) { }
         }
     }
 }
